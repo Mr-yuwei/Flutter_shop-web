@@ -1,0 +1,26 @@
+name: flutter_cart
+description: An app built using Flutter for web
+environment:
+  # You must be using Flutter >=1.5.0 or Dart >=2.3.0
+  sdk: '>=3.0.2 <4.0.0'
+dependencies:
+  cupertino_icons:
+  flutter:
+    sdk: flutter
+  flutter_swiper_null_safety: ^1.0.2
+  extended_image: ^8.0.2
+  
+dev_dependencies:
+  build_runner: 
+  build_web_compilers: 
+  pedantic:
+
+# dependency_overrides:
+#   flutter_web:
+#     git:
+#       url: https://github.com/flutter/flutter_web
+#       path: packages/flutter_web
+#   flutter_web_ui:
+#     git:
+#       url: https://github.com/flutter/flutter_web
+#       path: packages/flutter_web_ui
